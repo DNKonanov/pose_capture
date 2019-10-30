@@ -26,6 +26,10 @@ P1, P2, Q = calibrate(
     out=args.outdir
 )
 
-print(P1, P2)
+print()
+print('-------------PROJECTION MATRICES-------------')
 
+print('\n\tFIRST CAMERA\n', P1)
+print('\n\tSECOND CAMERA\n', P2)
+print()
 print('Cameras are calibrated!')
